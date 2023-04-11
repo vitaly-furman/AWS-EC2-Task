@@ -6,7 +6,7 @@ We've managed to get our hands on a private AWS endpoint serving EC2 instances d
 
 ## Implementation
 
-Instead of implementing two separate functions, I have designed an API with two endpoints. The first endpoint, list_instances, performs the ETL operation, while the second endpoint, instance/:region, returns the list of instances for a specific region.
+Instead of implementing two separate functions, I have designed an API with two endpoints. The first endpoint, `/list_instances`, performs the ETL operation, while the second endpoint, `/instances/:region`, returns the list of instances for a specific region from the `list_instances` results output.
 
 ## Prerequsites
 
