@@ -1,4 +1,4 @@
-# Zesty RnD Task
+# AWS EC2 Task
 
 ## Introduction
 
