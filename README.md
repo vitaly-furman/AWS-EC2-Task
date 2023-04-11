@@ -38,7 +38,7 @@ Returns the EC2 instances from the generated list of instances for the provided 
 Example using curl:
 
 ```
-curl 'http://localhost/api/v1/instances/:region'
+curl 'http://localhost/api/v1/instances/us-east-1'
 ```
 
 ## Input
