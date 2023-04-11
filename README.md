@@ -13,6 +13,14 @@ Instead of implementing two separate functions, I have designed an API with two 
 - Node.js(LTS preferably or v14+)
 - Docker
 
+## Input
+
+The input for the service is a regions text file that will be under ./data/regions.txt and include a list of regions seperated by comma
+
+```
+us-east-1, eu-west-1, ap-southeast-1
+```
+
 ## Running the server
 
 1. Clone this repository
@@ -41,12 +49,4 @@ Example using curl:
 
 ```
 curl 'http://localhost/api/v1/instances/us-east-1'
-```
-
-## Input
-
-The input for the service is a regions text file that will be under ./data/regions.txt and include a list of regions seperated by comma
-
-```
-us-east-1, eu-west-1, ap-southeast-1
 ```
